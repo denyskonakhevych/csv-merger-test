@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+csv:
+  data:
+    product: classpath:data/product.csv
+  enrichment:
+    batch-size: 200
